@@ -25,7 +25,9 @@ func bindHttpHandlers() {
 		}()
 		switch {
 		case strings.Contains(r.URL.Path, "."):
-			fileServer.ServeHTTP(w, r)
+			server := http.FileServer(http.Dir("pub/"))
+			server.ServeHTTP(w, r)
+			//fileServer.ServeHTTP(w, r)
 			return
 		case r.URL.Path != "/":
 			write404(w)
