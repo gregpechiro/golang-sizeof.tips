@@ -1,6 +1,6 @@
 package main
 
-import "github.com/gophergala/golang-sizeof.tips/app"
+import "github.com/gregpechiro/golang-sizeof.tips/app"
 
 func main() {
 	//os.Exit(app.Run())
