@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/gregpechiro/golang-sizeof.tips/internal/log"
+	"github.com/gregpechiro/sizeof/internal/log"
 )
 
 func init() {

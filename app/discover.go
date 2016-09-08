@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gregpechiro/golang-sizeof.tips/internal/parser"
+	"github.com/gregpechiro/sizeof/internal/parser"
 )
 
 const exampleCode = `// Sample code

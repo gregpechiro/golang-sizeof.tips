@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gregpechiro/golang-sizeof.tips/internal/bindata/static"
+	"github.com/gregpechiro/sizeof/internal/bindata/static"
 )
 
 func bindHttpHandlers() {

@@ -14,8 +14,8 @@ and remember alignment rules.
 To install correct versions of dependencies
 [Goop dependency manager](https://github.com/nitrous-io/goop) should be used.
 ```bash
-go get github.com/gregpechiro/golang-sizeof.tips
-cd github.com/gregpechiro/golang-sizeof.tips
+go get github.com/gregpechiro/sizeof
+cd github.com/gregpechiro/sizeof
 goop install
 goop go build -o ./server
 ```
