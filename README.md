@@ -4,6 +4,8 @@ Golang sizeof tips
 **Web tool for interactive playing with Golang struct sizes.**
 
 Try online version [here](http://sizeof.gregpechiro.com/).
+ 
+# NOTE I need to re-write the readme
 
 ## Aim
 Provide comfortable tool to see how fields in struct are aligned,
