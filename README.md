@@ -5,7 +5,7 @@ Golang sizeof tips
 
 Try online version [here](http://sizeof.gregpechiro.com/).
  
-# NOTE I need to re-write the readme
+# NOTE: I need to re-write the readme
 
 ## Aim
 Provide comfortable tool to see how fields in struct are aligned,
